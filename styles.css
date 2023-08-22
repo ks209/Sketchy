@@ -1,0 +1,35 @@
+*{
+    margin: 0 0 0 0;
+    box-sizing: border-box;
+    padding: 0 0 0 0;
+}
+
+.super{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:10vw;
+}
+
+.main{
+    width: 80vh;
+    height: 80vh;
+    display: flex;
+    flex-flow: wrap;
+    border: 5px solid black;
+}
+
+.pixel{
+    width: 2.5%;
+    height: 2.5%;       
+    padding: 0;
+    margin: 0;
+}
+
+button{
+    width: 200px;
+    height: 40px;
+    margin-top: 50px;
+}
