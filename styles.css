@@ -5,17 +5,19 @@
 }
 
 .super{
-    width: 100vw;
-    height: 100vh;
+    padding: 5vh 5vw;
+    width: 90vw;
+    height: 90vh;
     display: flex;
     justify-content: center;
     align-items: center;
     gap:10vw;
+    
 }
 
 .main{
-    width: 80vh;
-    height: 80vh;
+    width: 80vmin;
+    height: 80vmin;
     display: flex;
     flex-flow: wrap;
     border: 5px solid black;
@@ -32,4 +34,10 @@ button{
     width: 200px;
     height: 40px;
     margin-top: 50px;
+}
+
+@media (min-width:1000px) {
+    .super{
+        flex-direction: row;
+    }
 }
