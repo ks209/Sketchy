@@ -24,10 +24,11 @@
 }
 
 .pixel{
-    width: 2.5%;
-    height: 2.5%;       
+    width: 2%;
+    height: 2%;       
     padding: 0;
     margin: 0;
+    transition:ease-in-out 0.1s;
 }
 
 button{
@@ -36,8 +37,8 @@ button{
     margin-top: 50px;
 }
 
-@media (min-width:1000px) {
+@media (max-width:1000px) {
     .super{
-        flex-direction: row;
+        flex-direction: column-reverse;
     }
 }
